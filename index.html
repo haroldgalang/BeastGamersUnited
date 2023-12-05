@@ -1,61 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=&display=swap">
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300&display=swap" rel="stylesheet">    <title>Beast Gamers United</title>
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300&display=swap">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Beast Gamers United</title>
 </head>
 
 <body class="grey darken-4 white-text text-darken-3">
-    <div class="slider">
-        <ul class="slides">
-          <li>
-            <img src="images/crowd-esportsTournament.jpg">
-            <div class="caption center-align">
-              <h2 style="font-family: Permanent Marker; color: #fff;">Beast Gamers United</h3>
-              <h4 class="light grey-text text-lighten-3">Release the beast in you.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="images/minecraftGrassBlock.jpg">
-            <div class="caption left-align">
-                <h3 style="font-family: Permanent Marker; color: #fff;">Beast Gamers United</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img class="responsive-img" src="images/GamingBootcamp.jpg">
-            <div class="caption right-align">
-                <h3 style="font-family: Permanent Marker; color: #fff;">Beast Gamers United</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="images/csgo-wallpaper.jpg">
-            <div class="caption left-align">
-                <h3 style="font-family: Permanent Marker; color: #fff;">Beast Gamers United</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-        </ul>
-      </div>
-      
 
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Preload CDN -->
-    <script src="https://code.createjs.com/1.0.0/preloadjs.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="script.js"></script>
+  <!-- Preloader -->
+  <div id="preloader" class="center">
+    <img style="height: 400px;" src="images/stickfight_by_cookiedough334.gif">
+    <h3 style="font-family: Permanent Marker; color: #ff1744;">Loading...</h3>
+  </div>
+
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img class="responsive-img" src="images/TheInternational2023.png">
+        <div class="caption right-align">
+          <br><br>
+          <h3 style="font-family: Permanent Marker; color: #ff1744;">Gamers United</h3>
+          <h5 class="light grey-text text-lighten-3">Release the beast in you</h5>
+        </div>
+      </li>
+      <li>
+        <img class="responsive-img" src="images/minecraftGrassBlock.jpg">
+        <div class="caption left-align">
+          <h3 style="font-family: Permanent Marker; color: #fff;">Gamers United</h3>
+          <h5 class="light grey-text text-lighten-3">Trending gaming content</h5>
+        </div>
+      </li>
+      <li>
+        <img class="responsive-img" src="images/GamingBootcamp.jpg">
+        <div class="caption right-align">
+          <h3 style="font-family: Permanent Marker; color: #fff;">Gamers United</h3>
+          <h5 class="light grey-text text-lighten-3">Exclusive esports news</h5>
+        </div>
+      </li>
+      <li>
+        <img class="responsive-img" src="images/csgo-wallpaper.jpg">
+        <div class="caption left-align">
+          <h3 style="font-family: Permanent Marker; color: #fff;">Gamers United</h3>
+          <h5 class="light grey-text text-lighten-3">Upcoming games hot picks</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <section id="pinned-navbar" class="block">
+    <nav class="pushpin-demo-nav" data-target="pinned-navbar">
+      <div class="nav-wrapper grey darken-4 z-depth-4">
+        <div>
+          <a href="#" style="font-family: Permanent Marker; color: #ff1744;" class="brand-logo center">Gamers United</a>
+          <ul id="nav-mobile" class="left">
+            <li>
+              <a href="#!" class="show-on-medium-and-down"><i class="material-icons">menu</i></a>
+            </li>
+            <li>
+              <a href="#!" class="hide-on-med-and-down">Esports News</a>
+            </li>
+            <li>
+              <a href="#!" class="hide-on-med-and-down">Game Releases</a>
+            </li>
+            <li>
+              <a href="#!" class="hide-on-med-and-down">Leaderboards</a>
+            </li>
+          </ul>
+          <ul id="nav-mobile" class="right">
+            <li>
+              <a href="#!" class="show-on-med-and-down"><i class="material-icons">account_circle</i></a>
+            </li>
+            <li>
+              <a href="#!" class="hide-on-med-and-down"><i class="material-icons">apps</i></a>
+            </li>
+            <li>
+              <a href="#!" class="hide-on-med-and-down"><i class="material-icons">more_vert</i< /a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+
+    </section>
+
+  </section>
+
+
+
+
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Preload CDN -->
+  <script src="https://code.createjs.com/1.0.0/preloadjs.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
