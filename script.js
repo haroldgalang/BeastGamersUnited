@@ -30,6 +30,9 @@ $(document).ready(function(){
 
       $('.sidenav').sidenav();
       $('.scrollspy').scrollSpy();
+      $('.tooltipped').tooltip();
+      $('.fixed-action-btn').floatingActionButton();
+      $('.parallax').parallax();
 
   });
 
