@@ -28,11 +28,16 @@ $(document).ready(function(){
         });
       });
 
+      $('.dropdown-trigger').dropdown({
+        coverTrigger: false
+      });
+
       $('.sidenav').sidenav();
       $('.scrollspy').scrollSpy();
       $('.tooltipped').tooltip();
       $('.fixed-action-btn').floatingActionButton();
       $('.parallax').parallax();
-
+      $('.modal').modal();
+      
   });
 

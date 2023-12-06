@@ -32,59 +32,69 @@
   </div>
 
   <div class="fixed-action-btn hide-on-small-only">
-    <a class="btn-floating btn-large amber darken-4">
+    <a class="btn-floating btn-large amber darken-4 z-depth-4">
       <i class="large material-icons">apps</i>
     </a>
     <ul>
-      <li><a class="btn-floating tooltipped red accent-3" data-position="left" data-tooltip="Publish Article"><i class="material-icons">mode_edit</i></a></li>
-      <li><a class="btn-floating tooltipped red accent-3" data-position="left" data-tooltip="Feedback & Comments"><i class="material-icons">format_quote</i></a></li>
-      <li><a class="btn-floating tooltipped red accent-3" data-position="left" data-tooltip="Rewards"><i class="material-icons">attach_money</i></a></li>
-      <li><a href="#about-page" class="btn-floating tooltipped red accent-3" data-position="left" data-tooltip="Page Disclamer"><i class="material-icons">error_outline</i></a></li>
+      <li><a class="btn-floating tooltipped red accent-3 z-depth-4" data-position="left"
+          data-tooltip="Publish Article"><i class="material-icons">mode_edit</i></a></li>
+      <li><a class="btn-floating tooltipped red accent-3 z-depth-4" data-position="left"
+          data-tooltip="Feedback & Comments"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating tooltipped red accent-3 z-depth-4" data-position="left" data-tooltip="Rewards"><i
+            class="material-icons">attach_money</i></a></li>
+      <li><a href="#about-page" class="btn-floating tooltipped red accent-3 z-depth-4" data-position="left"
+          data-tooltip="Page Disclamer"><i class="material-icons">error_outline</i></a></li>
     </ul>
   </div>
 
-  <div class="slider" id="top-page">
-    <ul class="slides">
-      <li>
-        <img class="responsive-img" src="images/TheInternational2023.png">
-        <div class="caption right-align">
-          <br><br>
-          <h3 style="font-family: Permanent Marker; color: #ff1744;">Gamers United</h3>
-          <h5 class="light grey-text text-lighten-3">Release the beast in you</h5>
-        </div>
-      </li>
-      <li>
-        <img class="responsive-img" src="images/minecraftGrassBlock.jpg">
-        <div class="caption left-align">
-          <h3 style="font-family: Permanent Marker; color: #fff;">Gamers United</h3>
-          <h5 class="light grey-text text-lighten-3">Trending gaming content</h5>
-        </div>
-      </li>
-      <li>
-        <img class="responsive-img" src="images/GamingBootcamp.jpg">
-        <div class="caption right-align">
-          <h3 style="font-family: Permanent Marker; color: #fff;">Gamers United</h3>
-          <h5 class="light grey-text text-lighten-3">Exclusive esports news</h5>
-        </div>
-      </li>
-      <li>
-        <img class="responsive-img" src="images/csgo-wallpaper.jpg">
-        <div class="caption left-align">
-          <h3 style="font-family: Permanent Marker; color: #fff;">Gamers United</h3>
-          <h5 class="light grey-text text-lighten-3">Upcoming games hot picks</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
+  <section class="scrollspy" id="top-page">
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img class="responsive-img" src="images/TheInternational2023.png">
+          <div class="caption right-align">
+            <br><br>
+            <h3 style="font-family: Permanent Marker; color: #ff1744;">Gamers United</h3>
+            <h5 class="light grey-text text-lighten-3">Release the beast in you</h5>
+          </div>
+        </li>
+        <li>
+          <img class="responsive-img" src="images/minecraftGrassBlock.jpg">
+          <div class="caption left-align">
+            <h3 style="font-family: Permanent Marker; color: #fff;">Gamers United</h3>
+            <h5 class="light grey-text text-lighten-3">Trending gaming content</h5>
+          </div>
+        </li>
+        <li>
+          <img class="responsive-img" src="images/GamingBootcamp.jpg">
+          <div class="caption right-align">
+            <h3 style="font-family: Permanent Marker; color: #fff;">Gamers United</h3>
+            <h5 class="light grey-text text-lighten-3">Exclusive esports news</h5>
+          </div>
+        </li>
+        <li>
+          <img class="responsive-img" src="images/csgo-wallpaper.jpg">
+          <div class="caption left-align">
+            <h3 style="font-family: Permanent Marker; color: #fff;">Gamers United</h3>
+            <h5 class="light grey-text text-lighten-3">Upcoming games hot picks</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </section>
+
 
   <section id="pinned-navbar">
-    <nav class="pushpin-demo-nav" data-target="pinned-navbar" style="z-index: 100;" id="navMain">
+    <nav class="pushpin-demo-nav" data-target="pinned-navbar" style="z-index: 90;" id="navMain">
       <div class="nav-wrapper grey darken-4 z-depth-4">
         <div>
-          <a href="#" style="font-size: 2vw; font-family: Permanent Marker; color: #ff1744;" class="brand-logo center">Gamers United</a>
+          <a href="#top-page" style="font-size: 2vw; font-family: Permanent Marker; color: #ff1744;"
+            class="brand-logo center">Gamers United</a>
           <ul id="nav-mobile" class="left">
             <li>
-              <a href="" class="sidenav-trigger show-on-large" data-target="slide-out"><i class="material-icons">menu</i></a>
+              <a href="" class="sidenav-trigger show-on-large" data-target="slide-out"><i
+                  class="material-icons">menu</i></a>
             </li>
             <li>
               <a href="#esports-news-page" class="hide-on-med-and-down">Esports News</a>
@@ -101,7 +111,7 @@
               <a href="#!"><i class="material-icons">account_circle</i></a>
             </li>
             <li>
-              <a href="#!" class="hide-on-med-and-down"><i class="material-icons">more_vert</i></a>
+              <a href="#!" class="dropdown-trigger" data-target="dropdown1"><i class="material-icons">more_vert</i></a>
             </li>
           </ul>
         </div>
@@ -113,7 +123,8 @@
           <div class="background">
             <img class="responsive-img" src="images/TheInternational2023.png">
           </div>
-          <a href="#user"><img class="circle" src="https://th.bing.com/th/id/OIP.3_rmocxtbNOqkWF4cCFkdwAAAA?rs=1&pid=ImgDetMain"></a>
+          <a href="#user"><img class="circle"
+              src="https://th.bing.com/th/id/OIP.3_rmocxtbNOqkWF4cCFkdwAAAA?rs=1&pid=ImgDetMain"></a>
           <a href="#name"><span class="white-text name">OG Notail</span></a>
           <a href="#email"><span class="white-text email">bigdaddynotail@gmail.com</span></a>
         </div>
@@ -125,8 +136,17 @@
       </li>
       <li><a class="subheader white-text">More Settings</a></li>
       <li><a href="#!" class="white-text"><i class="material-icons white-text">settings</i>General Settings</a></li>
-      <li><a href="#about-page" class="sidenav-close white-text"><i class="material-icons white-text">find_in_page</i>About page</a></li>
-      <li><a href="#about-page" class="sidenav-close white-text"><i class="material-icons white-text">share</i>Support Us</a></li>
+      <li><a href="#about-page" class="sidenav-close white-text"><i
+            class="material-icons white-text">find_in_page</i>About page</a></li>
+      <li><a href="#about-page" class="sidenav-close white-text"><i class="material-icons white-text">share</i>Support
+          Us</a></li>
+    </ul>
+
+    <ul id='dropdown1' class='dropdown-content grey darken-4'>
+      <li><a href="#!">Feedback</a></li>
+      <li><a href="#!">FAQ</a></li>
+      <li class="divider" tabindex="-1"></li>
+      <li><a href="#about-page">about</a></li>
     </ul>
 
     <section class="scrollspy" id="esports-news-page">
@@ -248,7 +268,7 @@
         <div class="parallax"><img class="responsive-img" src="images/cyberpunk-masked-girl.jpg"></div>
         <div class="container">
           <h3 style="font-family: Permanent Marker; color: #ff1744;">Gamers United</h3>
-          <h5 class="light grey-text text-lighten-3">Release the beast in you</h5>  
+          <h5 class="light grey-text text-lighten-3">Release the beast in you</h5>
         </div>
       </div>
     </section>
@@ -264,7 +284,24 @@
           <div class="card red accent-3 hoverable">
             <div class="card-image">
               <img src="images/gameCovers/gangs-of-sherwood.jpg">
-              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2" data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
+              <a href="#modal1"
+                class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2 modal-trigger"
+                data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
+              <div id="modal1" class="modal grey darken-4">
+                <div class="modal-content center">
+                  
+                  <iframe style="width: 600px; height: 230px;" src="https://www.youtube.com/embed/GL9wcB4pfhA?autoplay=1&fs=0&controls=0&modestbranding=1&mute1"></iframe>
+                  
+                  <h5 class="left-align" style="font-size: 3vw;">Gangs of Sherwood</h5>
+                  <p class="left-align" style="font-size: 1.1vw;">Fight the armies of the Sheriff of Nottingham and lead the
+                    rebellion, solo or in co-op with up to 4 players. Play as one of the Merry Men, combine your
+                    attacks, and free the people in this futuristic dystopia inspired by the legend of Robin Hood.</p>
+                </div>
+                <div class="modal-footer red accent-3">
+                  <a href="https://store.steampowered.com/app/1351000/Gangs_of_Sherwood/" class="modal-close waves-effect waves-green btn-flat white-text">Visit Page</a>
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat white-text">Back</a>
+                </div>
+              </div>
             </div>
             <div class="card-content">
               <P style="-webkit-line-clamp: 1;">Gangs of Sherwood</P>
@@ -277,7 +314,8 @@
           <div class="card red accent-3 hoverable">
             <div class="card-image">
               <img src="images/gameCovers/pixel-cafe.jpg">
-              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2" data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
+              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2"
+                data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
               <P style="-webkit-line-clamp: 1;">Pixel Cafe</P>
@@ -290,7 +328,8 @@
           <div class="card red accent-3 hoverable">
             <div class="card-image">
               <img src="images/gameCovers/saguivore-twenty-below.jpg">
-              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2" data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
+              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2"
+                data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
               <P style="-webkit-line-clamp: 1;">Sanguivore Twenty Below</P>
@@ -303,7 +342,8 @@
           <div class="card red accent-3 hoverable">
             <div class="card-image">
               <img src="https://cdn.akamai.steamstatic.com/steam/apps/2192790/header.jpg?t=1701461148">
-              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2" data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
+              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2"
+                data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
               <P style="-webkit-line-clamp: 1;">The Walking Dead: Destinies</P>
@@ -316,7 +356,8 @@
           <div class="card red accent-3 hoverable">
             <div class="card-image">
               <img src="https://cdn.akamai.steamstatic.com/steam/apps/2134770/header.jpg?t=1701599791">
-              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2" data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
+              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2"
+                data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
               <P style="-webkit-line-clamp: 1;">SteamWorld Build</P>
@@ -329,7 +370,8 @@
           <div class="card red accent-3 hoverable">
             <div class="card-image">
               <img src="https://cdn.akamai.steamstatic.com/steam/apps/1555140/header.jpg?t=1701805959">
-              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2" data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
+              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2"
+                data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
               <P style="-webkit-line-clamp: 1;">Born of Bread</P>
@@ -342,7 +384,8 @@
           <div class="card red accent-3 hoverable">
             <div class="card-image">
               <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2089980/header.jpg?t=1701767997">
-              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2" data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
+              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2"
+                data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
               <P style="-webkit-line-clamp: 1;">Extremly Powerful Capybaras</P>
@@ -355,7 +398,8 @@
           <div class="card red accent-3 hoverable">
             <div class="card-image">
               <img src="https://cdn.akamai.steamstatic.com/steam/apps/768200/header.jpg?t=1701265577">
-              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2" data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
+              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2"
+                data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
               <P style="-webkit-line-clamp: 1;">Smalland: Survive the Wilds</P>
@@ -368,7 +412,8 @@
           <div class="card red accent-3 hoverable">
             <div class="card-image">
               <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1839950/header.jpg?t=1701704067">
-              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2" data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
+              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2"
+                data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
               <P style="-webkit-line-clamp: 1;">Terminator: Dark Fate - Defiance</P>
@@ -381,7 +426,8 @@
           <div class="card red accent-3 hoverable">
             <div class="card-image">
               <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1523650/header.jpg?t=1701807551">
-              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2" data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
+              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2"
+                data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
               <P style="-webkit-line-clamp: 1;">Stargate: Timekeepers</P>
@@ -394,7 +440,8 @@
           <div class="card red accent-3 hoverable">
             <div class="card-image">
               <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2155180/header.jpg?t=1701333636">
-              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2" data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
+              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2"
+                data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
               <P style="-webkit-line-clamp: 1;">Pioneers of Pagonia</P>
@@ -407,7 +454,8 @@
           <div class="card red accent-3 hoverable">
             <div class="card-image">
               <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/732690/header.jpg?t=1686587846">
-              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2" data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
+              <a class="btn-floating tooltipped btn-small halfway-fab waves-effect waves-light amber darken-4 z-depth-2"
+                data-position="left" data-tooltip="Check details"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
               <P style="-webkit-line-clamp: 1;">FIVE NIGHTS AT FREDDY'S: HELP WANTED</P>
@@ -423,7 +471,7 @@
         <div class="parallax"><img class="responsive-img" src="images/cyberpunk.webp"></div>
         <div class="container">
           <h3 class="right-align" style="font-family: Permanent Marker; color: #ff1744;">Gamers United</h3>
-          <h5 class="light grey-text text-lighten-3 right-align">Release the beast in you</h5> 
+          <h5 class="light grey-text text-lighten-3 right-align">Release the beast in you</h5>
         </div>
       </div>
     </section>
@@ -517,7 +565,8 @@
         <div class="col s4 m3 l2">
           <div class="card hoverable z-depth-2">
             <div class="card-image">
-              <img src="https://external-preview.redd.it/MOM63zdoplT5TaEYhXE9eHSjichIQgG4r1d6_qqqhVg.jpg?auto=webp&s=e0d7ad6806e4d84d73c3579bf45ac84c19206062">
+              <img
+                src="https://external-preview.redd.it/MOM63zdoplT5TaEYhXE9eHSjichIQgG4r1d6_qqqhVg.jpg?auto=webp&s=e0d7ad6806e4d84d73c3579bf45ac84c19206062">
             </div>
           </div>
         </div>
@@ -537,7 +586,7 @@
         <div class="parallax"><img class="responsive-img" src="images/cyberpunk-silhouete.jpg"></div>
         <div class="container">
           <h3 style="font-family: Permanent Marker; color: #ff1744;">Gamers United</h3>
-          <h5 class="light grey-text text-lighten-3">Release the beast in you</h5> 
+          <h5 class="light grey-text text-lighten-3">Release the beast in you</h5>
         </div>
       </div>
     </section>
@@ -578,8 +627,13 @@
       <div class="card red accent-3 hoverable z-depth-4">
         <div class="card-content">
           <h4><i class="material-icons large">find_in_page</i> About</h4>
-          <blockquote style="font-size: 1.3vw;">This website currently is in development. This is a submission for designing an online gaming platform and we are trying to create a design approriate for the topic. We're still working on the features to improve the visitor or user's experience. We also try to furnish this website and remove issues and unecesarry things, making sure that this place is very neat and encouraging more people to come visit on this website. </blockquote>
-          <h6 style="font-size: 1.1vw;">Disclamer: Media such as photos and videos are not mine and is only intended for academic purposes. All credits goes to the owners.</h6>
+          <blockquote style="font-size: 1.3vw;">This website currently is in development. This is a submission for
+            designing an online gaming platform and we are trying to create a design approriate for the topic. We're
+            still working on the features to improve the visitor or user's experience. We also try to furnish this
+            website and remove issues and unecesarry things, making sure that this place is very neat and encouraging
+            more people to come visit on this website. </blockquote>
+          <h6 style="font-size: 1.1vw;">Disclamer: Media such as photos and videos are not mine and is only intended for
+            academic purposes. All credits goes to the owners.</h6>
         </div>
       </div>
     </section>
