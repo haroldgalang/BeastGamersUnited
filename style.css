@@ -10,6 +10,10 @@
   position: fixed !important;
 }
 
+.block {
+  height: 50px;
+}
+
 #preloader {
     align-items: center;
     justify-items: center;
